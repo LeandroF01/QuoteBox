@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200;300&family=Lato:wght@400;700;900&family=Poppins:wght@100;200;300;400;600;800;900&display=swap");
+:root {
+  /*<-- Colors  -->*/
+
+  --cl-white: rgb(255, 255, 255);
+
+  /*<-- Box Shadow  -->*/
+  --bx-shadow_1: rgba(0, 0, 0, 0.374);
+  --bx-shadow_2: rgba(0, 0, 0, 0.497);
+}
+body {
+  padding: 0%;
+  margin: 0%;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+.section__card {
+  display: flex;
+  height: 100vh;
+}
+.article__card {
+  display: grid;
+  background: var(--cl-white);
+  box-shadow: 0.1em 0.1em 0.7em 0.1em var(--bx-shadow_1);
+  border-radius: 7px;
+  margin: auto;
+  width: 30em;
+  padding: 1.3em;
+}
+.article__text {
+  text-align: center;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.car-button {
+  width: 3em;
+  height: 3em;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  cursor: pointer;
+  background: none;
+  border: none;
+  box-shadow: 0.1em 0.1em 0.2em 0.1em var(--bx-shadow_1);
+  margin: auto;
+}
+.car-button:hover {
+  box-shadow: 0.1em 0.1em 0.3em 0.1em var(--bx-shadow_2);
+}
+
+.author-name {
+  font-weight: 600;
+  text-align: end;
+  font-size: 1rem;
+  margin: 1em;
+}
+.fa-quote-left {
+  display: flex;
+  font-size: 3em;
+}
+.fa-angles-right {
+  color: var(--cl-white);
+  font-size: 1rem;
+}
